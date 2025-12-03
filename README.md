@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🍽️ Restaurant Website
 
-## Getting Started
+This is a modern and fully responsive restaurant website built using Next.js and Tailwind CSS. The site showcases a clean layout with sections for the menu, about, and contact details.
 
-First, run the development server:
+🔗 Live Website: https://restaurant-peach-kappa.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+⭐ Features Modern and clean UI Fully responsive design Home, Menu, About, and Contact sections Fast loading (Vercel deployment) Reusable components
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️ Tech Stack Next.js React Tailwind CSS
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Project Structure app/ -> Pages & sections (App Router) components/ -> UI components public/ -> Images & assets
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Folder Structure app/ about_us/page.js
 
-## Learn More
+chef/page.js
 
-To learn more about Next.js, take a look at the following resources:
+components/button.js components/chef.js components/footer.js components/header.js components/hero.js components/menu1.js components/restan_vedio.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+login/page.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+menu/page.js
 
-## Deploy on Vercel
+auth.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+authContext.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+layout.js
+
+page.js
+
+public/ node_modules/
+
+favicon.ico firebase.js globals.css next.config.mjs postcss.config.mjs package.json package-lock.json jsconfig.json eslint.config.mjs README.md
