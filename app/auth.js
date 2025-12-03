@@ -27,16 +27,3 @@ export async function login(email, password) {
     console.log(error);
   }
 }
-
-// export async function logout(email, password) {
-//      try {
-//     let result = await signOut();
-//     return result;
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
-
-// export async function resetEmail(email){
-//     return await sendPasswordResetEmail(auth,email)
-// }
